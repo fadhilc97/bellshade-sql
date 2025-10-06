@@ -74,4 +74,4 @@ berelasi satu sama lain.
 
 ## Referensi
 
-https://www.w3schools.com/mysql/mysql_join_cross.asp
+<https://www.w3schools.com/mysql/mysql_join_cross.asp>

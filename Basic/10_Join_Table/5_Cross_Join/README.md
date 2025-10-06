@@ -2,7 +2,11 @@
 
 ![CROSS JOIN](https://www.w3schools.com/mysql/img_cross_join.png)
 
-`CROSS JOIN` sintaks yang digunakan untuk menampilkan suatu data atau _record_ dengan menghubungkan dua tabel dalam satu kali perintah. Data yang ditampilkan pada `CROSS JOIN` adalah setiap data pada tabel (_table_) sebelah kiri dipetakan ke seluruh data pada tabel (_table_) sebelah kanan tanpa mempedulikan kecocokan relasinya. Begitu pula sebaliknya.
+`CROSS JOIN` sintaks yang digunakan untuk menampilkan suatu data atau _record_
+dengan menghubungkan dua tabel dalam satu kali perintah. Data yang ditampilkan
+pada `CROSS JOIN` adalah setiap data pada tabel (_table_) sebelah kiri
+dipetakan ke seluruh data pada tabel (_table_) sebelah kanan tanpa mempedulikan
+kecocokan relasinya. Begitu pula sebaliknya.
 
 ## Sintaks
 
@@ -41,7 +45,10 @@ FROM Products
 CROSS JOIN Colors;
 ```
 
-Karena diberikan syntax `CROSS JOIN` untuk menggabungkan kedua tabel, maka data yang ditampilkan adalah setiap data yang ada di tabel _Products_ terhubung ke seluruh data yang ada di tabel _Colors_ tanpa memperhatikan kesesuaian relasi antara kedua tabel tersebut.
+Karena diberikan syntax `CROSS JOIN` untuk menggabungkan kedua tabel, maka data
+yang ditampilkan adalah setiap data yang ada di tabel _Products_ terhubung ke
+seluruh data yang ada di tabel _Colors_ tanpa memperhatikan kesesuaian relasi
+antara kedua tabel tersebut.
 
 Berikut hasil dari Query SQL di atas:
 
@@ -56,11 +63,14 @@ Berikut hasil dari Query SQL di atas:
 |    Pants    |   Green   |
 |    Pants    |   Blue    |
 
-Hasil di atas menunjukkan bahwa setiap data products yang bernama _Shirt_ dan _Pants_ terhubung ke seluruh data colors. Kedua tabel tersebut tidak harus berelasi satu sama lain.
+Hasil di atas menunjukkan bahwa setiap data products yang bernama _Shirt_ dan
+_Pants_ terhubung ke seluruh data colors. Kedua tabel tersebut tidak harus
+berelasi satu sama lain.
 
 ### Catatan
 
-- Jika kedua tabel berelasi, menambahkan klausa `WHERE` dengan mencocokkan kolom yang berelasi akan memberikan hasil yang sama dengan klausa `INNER JOIN`.
+- Jika kedua tabel berelasi, menambahkan klausa `WHERE` dengan mencocokkan
+  kolom yang berelasi akan memberikan hasil yang sama dengan klausa `INNER JOIN`.
 
 ## Referensi
 
